@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    max-width: 100%;
+    padding-top: 10px;
+    height: 100%;
+}
+.menu-left a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.menu-left a:hover{
+    text-decoration: none;
+    color:white;
+}
+.row-left{
+    width: 20%;
+    background-color: rgb(47, 126, 211);
+    /* position: absolute; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    float: left;
+    height: 100%;
+    box-shadow: 1px 1px 10px 2px black;
+    position: fixed;
+}
+.row-right{
+    width:78%;  
+    float: right;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 1px 1px 10px 2px black;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* justify-content: space-around; */
+    height: 30%;
+}
+.avt{
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid gray;
+}
+.avt img{
+    width: 100%;
+    height: 100%;
+}
+.avt::before{
+    content: "Change Avatar";
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.6);
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    transition: all .3s;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+.avt:hover::before{
+    height: 35%;
+}
+.menu-left li{
+    padding: 5px;
+}
+.menu-left li:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(75, 186, 238);
+}
+#time{
+    color: white;
+}
+.home a{
+    color: white;
+}

@@ -1,0 +1,21 @@
+.heading {
+    text-align: center;
+}
+
+.thumbnail-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    padding: 30px;
+}
+.thumbnail-1 img{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    position: static;
+}
+.au-content{
+    width: 960px;
+    margin: 50px auto;
+}

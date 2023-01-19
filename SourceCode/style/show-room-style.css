@@ -1,0 +1,78 @@
+.car-item{
+    display: flex;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 55%;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.car-item:hover{
+    box-shadow: 1px 1px 10px 2px gray;
+}
+.car-item .main-info{
+    width: 55%;
+    margin-left: 10px;
+}
+.car-item .main-info .car-info{
+    width: 100%;
+}
+.car-item h3{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 25px;
+    width: 100%;
+}
+.car-item img{
+    width: 45%;
+}
+.car-item .info{
+    width: 100%;
+}
+.car-item .info p{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    line-height: 50px;
+    vertical-align: top;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.seller-info{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+.seller-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.page-changer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 30px 0;
+}
+.page-changer button{
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.page-changer button:not(.active):hover{
+    background-color: darkgray;
+}
+.page-changer .active{
+    background-color: rgb(19, 94, 172);
+    color: white;
+}

@@ -1,0 +1,91 @@
+
+.header h2{
+    padding: 10px;
+}
+.header i{
+    float: right;
+    font-size: 20px;
+}
+
+.list table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.list th,td {
+    padding: 10px;
+    text-align: left;
+}
+.list table thead tr th {
+    border: solid 1px #353333;
+}
+.list table tbody tr td {
+    border: 1px solid #353333;
+}
+.list table thead tr th:nth-child(3) {
+    width: 300px;
+}
+.list table thead tr th:nth-child(4) {
+    width: 200px;
+}
+.list table thead tr th:nth-child(5) {
+    width: 120px;
+}
+.list table thead tr th:nth-child(6) {
+    width: 80px;
+}
+.list table thead tr th:nth-child(7) {
+    width: 128px;
+} 
+.list tr:nth-last-child(even){
+    background-color: rgb(212, 206, 208);
+}
+.edit{
+    background-color: rgb(199, 240, 216);
+}
+.delete{
+    background-color: rgb(247, 134, 134);
+}
+.header-2 {
+    margin-top: -10px;
+    padding: 5px;
+    padding-left: 0;
+}
+
+.header-2 select{
+    left: 0;
+    width: 100px;
+    text-align: center;
+    height: 24px;
+    background-color: #b6b3b3;
+    border: none;
+    border-radius: 5px;
+}
+.header-2 span{
+    padding: 10px;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+.filter-1 {
+    cursor: pointer;
+}
+
+.filter-2{
+    text-align: center;
+    position: absolute;
+    top: 115px;
+    left: 770px;
+}
+ .filter-2 select{
+    width: 200px;
+    text-align: center;
+    height: 24px;
+    border: none;
+    background-color: #b6b3b3;
+    border-radius: 5px;
+}
+.edit button{
+    background: transparent;
+    border: none;
+}
+

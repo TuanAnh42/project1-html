@@ -1,0 +1,16 @@
+.brand-show{
+    display: flex;
+    
+}
+.brand-show img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.brand-show h3{
+    font-size: 300%;
+
+}
+.brand-show .details{
+
+}

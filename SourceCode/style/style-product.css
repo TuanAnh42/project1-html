@@ -1,0 +1,122 @@
+
+a:hover{
+    text-decoration: none;
+}
+a:focus{
+    text-decoration: none;
+}
+.header h2{
+    padding: 10px;
+}
+.header h4{
+    position: absolute;
+    right: 10px;
+    top: 65px;
+    font-size: large;
+}
+.header i{
+    float: right;
+    font-size: 20px;
+}
+.list th,td {
+    padding: 10px;
+    text-align: left;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.buttons button{
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px black solid;
+    cursor: pointer;
+}
+.buttons button:focus{
+    background-color: cornflowerblue;
+}
+
+.search{
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+}
+.search form{
+    width: 100%;
+    height: 100%;
+}
+.search input{
+    width: 70%;
+    height: 100%;
+    outline: none;
+    border: 2px solid gray;
+    padding: 0 10px;
+}
+.search .buttons-5 {
+    background-color: rgb(141, 229, 232);
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.image {
+    width: 60px;
+}
+.list{
+    margin-top: 10px;
+}
+.list table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.list table thead tr th {
+    border: solid 1px #353333;
+    text-align: center;
+}
+.list table tbody tr td {
+    border: 1px solid #353333;
+    word-wrap: break-word;
+    text-align: center;    
+}
+.list table tbody tr:hover{
+    background-color: #74b9ff;
+}
+.list table thead tr th:nth-child(1) {
+   width: 20px;
+}
+.list table thead tr th:nth-child(2) {
+    width: 20px;
+ }
+.list table thead tr th:nth-child(3) {
+    width:300px;
+}
+.list table thead tr th:nth-child(4) {
+    width: 150px;
+}
+.list table thead tr th:nth-child(5) {
+    width: 80px;
+}
+.list table thead tr th:nth-child(6) {
+    width: 100px;
+}
+.list table thead tr th:nth-child(7) {
+    width: 100px;
+} 
+.list table thead tr th:nth-child(8){
+    width: 150px;
+}
+.list table thead tr th:nth-child(9){
+    width: 150px;
+}
+.delete button{
+    border: none;
+    background-color: transparent;
+}
+
+

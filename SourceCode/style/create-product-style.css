@@ -1,0 +1,11 @@
+textarea{
+    resize: none;
+    height: 200px
+}
+.container{
+    position: relative;
+}
+#img_upload{
+    position: absolute;
+    top: 0;
+}

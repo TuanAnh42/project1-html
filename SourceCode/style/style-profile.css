@@ -1,0 +1,9 @@
+
+
+.btncp{
+    background-color: transparent;
+    border: none;
+}
+.btncp:hover{
+    color: white;
+}
